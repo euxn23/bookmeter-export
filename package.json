@@ -2,8 +2,9 @@
   "name": "bookmeter-export",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/bin/run.coffee",
   "scripts": {
+    "start": "coffee -t app/bin/run.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
