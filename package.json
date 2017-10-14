@@ -12,7 +12,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "coffeescript": "^2.0.1",
+    "coffeescript": "jashkenas/coffeescript",
     "express": "^4.16.2"
   }
 }
