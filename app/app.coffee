@@ -1,7 +1,9 @@
 import express from 'express'
-import { index } from './routes'
+import router from './routes'
+import path from 'path'
 
 app = express()
-app.use '/', index
+app.use express.static path.join __dirname, 'public'
+app.use '/api', router.api
 
 export default app
