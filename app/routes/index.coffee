@@ -1,8 +1,7 @@
-import express from 'express'
+import api from './api'
 
-router = express.Router()
-router.get '/',  (req, res) =>
-  res.send 'GET /'
+routes = {
+  api
+}
 
-export { router as index }
-
+export default routes
