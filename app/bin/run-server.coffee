@@ -1,4 +1,4 @@
-import app from '../app'
+import app from '../server'
 
 port = process.env.PORT || '3000'
 app.listen port, => console.log "Server is listening on port #{port}"
