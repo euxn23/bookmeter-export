@@ -14,7 +14,7 @@
     "await-to-js": "^2.0.1",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "coffeescript": "jashkenas/coffeescript",
+    "coffeescript": "github:jashkenas/coffeescript",
     "express": "^4.16.2",
     "node-fetch": "^1.7.3",
     "nodemon": "^1.12.1"
